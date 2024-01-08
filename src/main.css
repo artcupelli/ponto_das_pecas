@@ -112,6 +112,7 @@ nav {
     color: white;
     transition: 300ms;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .nav_item:hover {
