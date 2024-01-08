@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Ponto das Peças</title>
+    <script src="https://kit.fontawesome.com/a6afcf200d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="heading">
+        <div id="left">
+            <img src="./static/images/car.png" id="car_image" />
+        </div>
+
+        <div id="right">
+            <nav>
+                <a class="nav_item">Peças</a>
+                <a class="nav_item">Marcas</a>
+                <a class="nav_item">Onde comprar</a>
+                <button class="secondary_button" id="whats_button"
+                    onclick="location.href='https://wa.me/5511983746681'"><i class="fa-brands fa-whatsapp"></i> Chame no Whats</a>
+            </nav>
+
+            <div id="introduction">
+                <img src="static/images/logo.png" id="logo" />
+
+                <h1><span>Quebrou? Comprou. </span>Consertou!</h1>
+                <p>
+                    Potencialize o desempenho do seu veículo com as melhores peças. Bem-vindo ao <b>Ponto das Peças</b>,
+                    a loja das peças automotivas.
+                </p>
+                <button class="primary_button" onclick="document.location+='#pieces';return false;">ver mais</button>
+            </div>
+
+            <img src="./static/images/sp_shipping.png" id="shipping" />
+
+        </div>
+    </div>
+
+    <div id="pieces">
+        <div id="pieces_introduction">
+            <h1>Nosso estoque possui diversos tipos de peças automotivas.</h1>
+            <p>
+                Nossa seleção de peças automotivas oferece qualidade incomparável para garantir que seu veículo esteja
+                sempre pronto para a estrada.
+            </p>
+        </div>
+
+        <div id="pieces_list">
+            <div class="pieces_item">
+                <img src="./static/images/batente_e_coifa.png" />
+                <h4>Batente e Coifa</h4>
+            </div>
+            <div class="pieces_item">
+                <img src="./static/images/bieleta.png" />
+                <h4>Bieleta</h4>
+            </div>
+            <div class="pieces_item">
+                <img src="./static/images/bucha.png" />
+                <h4>Bucha</h4>
+            </div>
+            <div class="pieces_item">
+                <img src="./static/images/pivo.png" />
+                <h4>Pivô</h4>
+            </div>
+            <div class="pieces_item">
+                <img src="./static/images/calco_de_mola.png" />
+                <h4>Calço de Mola</h4>
+            </div>
+            <div class="pieces_item">
+                <img src="./static/images/coxim.png" />
+                <h4>Coxim do Amortecedor</h4>
+            </div>
+            <div class="pieces_item">
+                <img src="./static/images/coxim_do_motor.png" />
+                <h4>Coxim do Motor</h4>
+            </div>
+            <div class="pieces_item">
+                <img src="./static/images/coifa.png" />
+                <h4>Coifa Homocinetica</h4>
+            </div>
+
+            <p>... e muito mais!</p>
+        </div>
+    </div>
+
+    <div id="conditions">
+        <h1>Se liga nessas condições imperdíveis...</h1>
+        <div id="conditions_list">
+            <div class="conditions_item" id="truck">
+                <h3>Entrega para todo o Brasil</h4>
+                    <p>Frete garantido para todo o território nacional e em até 24hrs para clientes na cidade de São
+                        Paulo.</p>
+            </div>
+            <div class="conditions_item" id="card">
+                <h3>Pagamento em até 12x</h4>
+                    <p>Pagando pelo Mercado Pago é possível parcelar sua compra em até 12 vezes no crédito.</p>
+            </div>
+            <div class="conditions_item" id="box">
+                <h3>Troca por defeito garantida </h4>
+                    <p>Caso sua peça venha com algum defeito de produção realizamos a troca gratuita em até 7 dias.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="brands">
+        <h1>Trabalhamos sempre com as <span>melhores marcas</span> do ramo.</h1>
+
+        <div id="brands_list">
+            <img src="./static/images/brand_1.png" />
+            <img src="./static/images/brand_2.png" />
+            <img src="./static/images/brand_3.png" />
+            <img src="./static/images/brand_4.png" />
+            <img src="./static/images/brand_5.png" />
+        </div>
+    </div>
+
+    <hr />
+
+    <footer>
+        <div>
+            <img src="./static/images/logo.png" />
+            <div>
+                <p>Qualquer dúvida, entre em contato em nossas redes sociais para consultoria gratuita!</p>
+                <span> <i class="fa-brands fa-whatsapp"></i>   (11) 98374-6681</span>
+            </div>
+        </div>
+
+        <button class="primary_button" onclick="location.href='https://wa.me/5511983746681'"> <i class="fa-brands fa-whatsapp fa-lg"></i> Chame no Whats</button>
+
+    </footer>
+</body>
+
+</html>
